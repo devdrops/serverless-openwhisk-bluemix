@@ -2,7 +2,6 @@ FROM node:latest
 
 ARG VCS_REF
 ARG BUILD_DATE
-ARG BX_APIKEY
 
 LABEL maintainer="davi.marcondes.moreira@gmail.com" \
       org.label-schema.name="devdrops/sls-ow-bx" \
